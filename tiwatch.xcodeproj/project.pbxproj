@@ -15,6 +15,8 @@
 		24639D72246C66B3002BD4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24639D70246C66B3002BD4F4 /* LaunchScreen.storyboard */; };
 		24639D7D246C66B4002BD4F4 /* tiwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24639D7C246C66B4002BD4F4 /* tiwatchTests.swift */; };
 		24639D88246C66B4002BD4F4 /* tiwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24639D87246C66B4002BD4F4 /* tiwatchUITests.swift */; };
+		24639D96246C687E002BD4F4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24639D95246C687E002BD4F4 /* Helper.swift */; };
+		24639D98246C6EC3002BD4F4 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24639D97246C6EC3002BD4F4 /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		24639D83246C66B4002BD4F4 /* tiwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24639D87246C66B4002BD4F4 /* tiwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiwatchUITests.swift; sourceTree = "<group>"; };
 		24639D89246C66B4002BD4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24639D95246C687E002BD4F4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		24639D97246C6EC3002BD4F4 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		24639D64246C66AA002BD4F4 /* tiwatch */ = {
 			isa = PBXGroup;
 			children = (
+				24639D95246C687E002BD4F4 /* Helper.swift */,
 				24639D65246C66AA002BD4F4 /* AppDelegate.swift */,
 				24639D67246C66AA002BD4F4 /* SceneDelegate.swift */,
 				24639D69246C66AA002BD4F4 /* ContentView.swift */,
+				24639D97246C6EC3002BD4F4 /* TimerManager.swift */,
 				24639D6B246C66B3002BD4F4 /* Assets.xcassets */,
 				24639D70246C66B3002BD4F4 /* LaunchScreen.storyboard */,
 				24639D73246C66B3002BD4F4 /* Info.plist */,
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24639D66246C66AA002BD4F4 /* AppDelegate.swift in Sources */,
+				24639D98246C6EC3002BD4F4 /* TimerManager.swift in Sources */,
 				24639D68246C66AA002BD4F4 /* SceneDelegate.swift in Sources */,
 				24639D6A246C66AA002BD4F4 /* ContentView.swift in Sources */,
+				24639D96246C687E002BD4F4 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
